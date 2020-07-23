@@ -1,12 +1,23 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { SafeAreaView, Text } from 'react-native';
 
-// import { Container } from './styles';
+import { 
+Container,
+TitleFollow,
+TitleForYou,
+Header 
+} from './styles';
 
 export default () => {
   return (
-    <View style={{flex:1,justifyContent:'center',alignItems:'center'}}>
-      <Text>Home</Text>
-    </View>
+    <SafeAreaView>
+      <Header>
+        <TitleFollow>Seguindo</TitleFollow>
+        <TitleForYou>Para Voce</TitleForYou>
+      </Header>
+          <Container>
+          
+          </Container>
+    </SafeAreaView>
   );
 }
