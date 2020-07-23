@@ -1,5 +1,4 @@
 # TikTokCloneRN
+##React-Native V:063 :rocket:
 
-
-### LIBS: REACT NAVIGATIONS
-##### React Navigations TABS
+### LIBS: REACT NAVIGATIONS, STYLED COMPONENTS
