@@ -19,12 +19,12 @@ export const TitleFollow = styled.Text`
     margin-left:100px;
     font-size:16px;
     font-weight:bold;
-    color:#fff;
+    color:#000;
 `; 
 
 export const TitleForYou = styled.Text`
   margin-right:100px;
   font-size:16px;
   font-weight:bold;
-  color:#fff
+  color:#000;
 `;

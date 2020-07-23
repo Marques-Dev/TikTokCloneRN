@@ -10,6 +10,7 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import Button from './components/Button'; 
 
 import HomeScreen from './screens/Home';
+import DiscoverScreen from './screens/Discover';
 
 const Tabs = createBottomTabNavigator();
 
@@ -36,7 +37,7 @@ export default () => {
 
           <Tabs.Screen 
           name='Discover' 
-          component={HomeScreen} 
+          component={DiscoverScreen} 
           options={{
             title:'Descobrir',
             tabBarIcon: ({color,size}) => <FeatherIcons name='search' size={size} color={color} />
